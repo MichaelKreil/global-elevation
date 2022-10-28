@@ -1,6 +1,6 @@
 {
-  "name": "dem-global",
-  "version": "0.0.1",
+  "name": "global-elevation",
+  "version": "0.1.0",
   "description": "get the elevation for every point on earth",
   "main": "index.mjs",
   "directories": {
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "node test.js"
   },
-  "author": "Michael Kreil <github@michael-kreil.de> (https://github.com/MichaelKreil)",
+  "author": "Michael Kreil <michael.kreil@swr.de> (https://github.com/MichaelKreil)",
   "license": "MIT",
   "dependencies": {
     "adm-zip": "^0.5.9"
