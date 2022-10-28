@@ -18,12 +18,6 @@ let elevation = await etopo5.getElevation(13.4083, 52.5186);
 
 ## Sources:
 
-- [x] [ETOPO5](https://registry.opendata.aws/copernicus-dem/)
-- [ ] [ETOPO1](https://www.ngdc.noaa.gov/mgg/global/)
-- [ ] [Copernicus](https://registry.opendata.aws/copernicus-dem/)
-- [ ] [CEDTM - Continental Europe Digital Terrain Model](https://zenodo.org/record/4724549)
-- [ ] [NASADEM_HGT](https://e4ftl01.cr.usgs.gov/MEASURES/NASADEM_HGT.001/2000.02.11/)
-
 | implemented | name       | source                                                                                |
 | ----------- | ---------- | ------------------------------------------------------------------------------------- |
 | ✅           | ETOPO1     | [ETOPO1](https://www.ngdc.noaa.gov/mgg/global/)                                       |
