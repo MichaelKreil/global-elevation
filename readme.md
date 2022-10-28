@@ -11,14 +11,15 @@ npm i global-elevation
 ## Usage
 
 ```javascript
-	const { ETOPO5 } = await import('global-elevation');
-	let etopo5 = new ETOPO5();
-	let elevation = await etopo5.getElevation(13.4083, 52.5186);
+const { ETOPO5 } = await import('global-elevation');
+let etopo5 = new ETOPO5();
+let elevation = await etopo5.getElevation(13.4083, 52.5186);
 ```
 
 ## Sources:
 
-https://registry.opendata.aws/copernicus-dem/
-https://zenodo.org/record/4724549
-https://e4ftl01.cr.usgs.gov/MEASURES/NASADEM_HGT.001/2000.02.11/
-https://topex.ucsd.edu/pub/srtm15_plus/
+- [x] [ETOPO5](https://registry.opendata.aws/copernicus-dem/)
+- [ ] [ETOPO1](https://www.ngdc.noaa.gov/mgg/global/)
+- [ ] [Copernicus](https://registry.opendata.aws/copernicus-dem/)
+- [ ] [CEDTM - Continental Europe Digital Terrain Model](https://zenodo.org/record/4724549)
+- [ ] [NASADEM_HGT](https://e4ftl01.cr.usgs.gov/MEASURES/NASADEM_HGT.001/2000.02.11/)
