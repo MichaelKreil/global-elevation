@@ -7,11 +7,15 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "upgrade": "npm-check-updates -u && rm -f package-lock.json && rm -rf node_modules; npm i"
   },
   "author": "Michael Kreil <michael.kreil@swr.de> (https://github.com/MichaelKreil)",
   "license": "MIT",
   "dependencies": {
-    "adm-zip": "^0.5.9"
+    "adm-zip": "^0.5.10"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^16.14.15"
   }
 }
